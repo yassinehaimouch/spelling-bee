@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cell {
+  position: absolute;
+  top: 33.3333333333%;
+  left: 30%;
+  width: 40%;
+  height: 33.3333333333%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.cell:nth-child(1) {
+  transform: translate(0, 0);
+}
+
+.cell:nth-child(2) {
+  transform: translate(-75%, -50%);
+}
+
+.cell:nth-child(3) {
+  transform: translate(0, -100%);
+}
+
+.cell:nth-child(4) {
+  transform: translate(75%, -50%);
+}
+
+.cell:nth-child(5) {
+  transform: translate(75%, 50%);
+}
+
+.cell:nth-child(6) {
+  transform: translate(0, 100%);
+}
+
+.cell:nth-child(7) {
+  transform: translate(-75%, 50%);
+}
+
+.cell-letter {
+  font-weight: 700;
+  font-size: 1.875em;
+  text-anchor: middle;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.center-letter .cell-fill {
+  cursor: pointer;
+  fill: #f7da21;
+  transition: all 100ms;
+}
+
+.outer-letter .cell-fill {
+  cursor: pointer;
+  fill: #e6e6e6;
+  transition: all 100ms;
+}

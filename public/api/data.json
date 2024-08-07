@@ -1,0 +1,30 @@
+{
+  "data": {
+    "today": {
+      "displayWeekDay": "Tuesday",
+      "displayDate": "February 13, 2024",
+      "printDate": "2024-02-13",
+      "centerLetter": "b",
+      "outerLetters": ["a", "c", "e", "i", "l", "p"],
+      "validLetters": ["b", "a", "c", "e", "i", "l", "p"],
+      "pangrams": ["applicable", "clippable"],
+      "answers": ["applicable", "clippable", "abaci", "able", "alibi", "bee"],
+      "id": 15845,
+      "freeExpiration": 0,
+      "editor": "Yassine Haimouch"
+    },
+    "yesterday": {
+      "displayWeekDay": "Monday",
+      "displayDate": "February 12, 2024",
+      "printDate": "2024-02-12",
+      "centerLetter": "b",
+      "outerLetters": ["a", "c", "e", "i", "l", "p"],
+      "validLetters": ["b", "a", "c", "e", "i", "l", "p"],
+      "pangrams": ["applicable", "clippable"],
+      "answers": ["applicable", "clippable", "abaci", "able", "alibi"],
+      "id": 15845,
+      "freeExpiration": 0,
+      "editor": "Yassine Haimouch"
+    }
+  }
+}
