@@ -11,7 +11,7 @@ const Guess = ({ guess, centerLetter, message }: guessInterface) => {
     <>
       <section className="flex flex-col justify-center items-center min-h-[100px]">
         {message && (
-          <p className=" fixed -mt-20 bg-black text-white px-3 py-1 rounded font-light text-sm">
+          <p className="fixed z-50 -mt-20 bg-black text-white px-3 py-1 rounded font-light text-sm">
             {message}
           </p>
         )}
