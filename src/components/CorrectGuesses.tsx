@@ -41,7 +41,7 @@ const CorrectGuesses = ({ correctGuesses, pangrams }: correctGuessesProps) => {
           <ul className="mt-8">
             {correctGuesses.map((correctGuess: string) => (
               <li
-                className="capitalize border-b border-gray-300 w-[150px] md:mt-b"
+                className="capitalize border-b border-gray-300 w-[150px] md:mt-5"
                 key={correctGuess}
               >
                 {correctGuess}
