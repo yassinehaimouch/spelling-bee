@@ -86,7 +86,7 @@ export default function Home() {
           {showConfetti && <ConfettiComponent />}
           <Header date={data.displayDate} />
           <Navgation />
-          <main className="flex justify-between flex-col px-5 md:flex-row lg:px-64 mt-8 lg:mt-32">
+          <main className="flex justify-between flex-col-reverse px-5 md:flex-row lg:px-64 mt-8 lg:mt-32">
             <section className="relative flex items-center justify-center">
               <div className="w-[80vw] max-w-[290px]">
                 <div className="w-[90%] my-[25px] mx-auto">
