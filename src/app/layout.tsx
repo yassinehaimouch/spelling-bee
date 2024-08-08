@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Spelling Bee",
   description: "Developer, writer, and creator.",
   openGraph: {
-    title: "Yassine Haimouch",
+    title: "Spelling Bee",
     description: "Spelling Bee By Yassine Haimouch (@gitcoder).",
     url: "https://bee.gitcoder.me",
     siteName: "Spelling Bee",
