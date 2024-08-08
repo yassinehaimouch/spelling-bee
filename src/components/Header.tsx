@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface headerProps {
@@ -10,7 +11,7 @@ const Header = ({ date }: headerProps) => {
       <h1 className="text-3xl flex items-end gap-4 font-semibold">
         Spelling Bee <p className="font-light text-lg">{date}</p>
       </h1>
-      <p className="mt-2">Edited by Yassine Haimouch</p>
+      <p className="mt-2">Edited by <Link target="blank" href="https://www.gitcoder.me/" className="hover:text-purple-600 underline">Yassine Haimouch</Link></p>
     </header>
   );
 };
